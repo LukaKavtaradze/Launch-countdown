@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+
+body{
+ 
+    background:  #261A2D;
+       background-image: url(./assets/bg-stars.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: start; 
+    align-items: center;
+   height: 100vh;
+}
+
+header{
+    padding-top: 100px;
+}
+main{
+padding-top:  54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    color: #FFF;
+text-align: center;
+font-family: Red Hat Text;
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 6.136px;
+text-transform: uppercase;
+}
+
+.timer{
+    width: 70px;
+    height: 71px;
+    background: #343650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 5px 0px  #191A23;
+    overflow: hidden;
+    border-radius: 5px;
+   
+}
+.first-half{
+    width: 70px;
+    height: 37px;
+    background: black;
+    border-radius: 0px 0px 4px 4px;
+    opacity: 0.1506;
+    position: absolute;
+    top: -1px;
+
+}
+.oval1{
+    width: 12px;
+    height: 12px;
+   background: #191A23;
+    position: absolute;
+    border-radius: 50%;
+    right: 67px;
+}
+
+.line{
+    width: 70px;
+    height: 0.473px;
+    opacity: 0.253;
+background: #000;
+position: absolute;
+}
+
+.oval2{
+    width:12px;
+    height: 12px;
+ background: #191A23;
+    position: absolute;
+    border-radius: 50%;
+    left: 67px;
+}
+
+
+
+
+.countdown-boxes{
+    margin-top: 54px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.timer-days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+h3{
+    color: #8385A9;
+text-align: center;
+font-family: Red Hat Text;
+font-size: 7px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 10px;
+letter-spacing: 2.959px;
+
+}
+.timer-hours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timer-minutes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timer-seconds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-countdown p{
+    color: #FB5E84;
+
+    text-align: center;
+    font-family: Red Hat Text;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px; /* 197.222% */
+    letter-spacing: -1.08px
+}
+
+#birthday{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ 
+}
+#birthday h2{
+
+    font-family: Red Hat Text;
+    padding-top: 20px;
+    color: #FB5E84;
+    font-size: 22px;
+}
+footer{
+    margin-top: 200px;
+background-image: url(./assets/pattern-hills.svg);
+height: 36%;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+/* background: red; */
+
+}
+.icons{
+     margin-top: 10px;
+     gap: 60px
+     ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+@media(min-width:1440px){
+    
+    header{
+        padding-top: 50px;
+    }
+    main{
+        padding-top: 20px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    footer{
+        margin-top: 250px;
+    }
+    .timer{
+        width: 150px;
+        height: 132.88px;
+    }
+    .line{
+        width: 140px;
+    }
+    .oval1{
+        right: 145px;
+    }
+    .oval2{
+        left: 145px;
+    }
+    .first-half{
+        width: 150px;
+        height: 70px;
+    }
+    .timer-countdown p {
+        font-size: 80px;
+    }
+    .timer{
+        box-shadow: 0px 10px 0px #191A23;
+    }
+    h3{
+    width: 148px;
+    height: 18px;
+    font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 5.919px;
+
+margin-top: 30px;
+    }
+}
