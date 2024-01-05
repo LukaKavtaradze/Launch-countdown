@@ -180,8 +180,16 @@ align-items: center;
 .icons img {
     width: 24px;
     height: 24px;
+   /* 330 degrees corresponds to the color #FB5E84 */
+  
 }
 
+
+.icons img:hover{
+    cursor:pointer;
+    filter:brightness(0) saturate(100%) invert(44%) sepia(92%) saturate(463%) hue-rotate(298deg) brightness(102%) contrast(97%)
+
+}
 
 
 @media(min-width:1440px){
