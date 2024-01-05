@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     justify-content: start; 
     align-items: center;
+    overflow: hidden;
    height: 100vh;
 }
 
@@ -156,6 +157,7 @@ letter-spacing: 2.959px;
 footer{
     margin-top: 200px;
 background-image: url(./assets/pattern-hills.svg);
+
 height: 36%;
 background-size: cover;
 background-repeat: no-repeat;
