@@ -12,7 +12,6 @@ let countdown = setInterval(() => {
   let time = deadline - currentdate;
 
   let days = Math.floor(time / (1000 * 60 * 60 * 24));
-  console.log(days);
 
   let hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 
